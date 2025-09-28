@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 20px;
+            width: 300px;
+            border-radius: 5px;
+            background-color: bisque;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        #cabecera {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        Héroes
+    </div>
+    <table class="tabla" border="1" width="75%">
+        <thead>
+            <tr>
+                <th rowspan="2">Heroes</th>
+                <th colspan="2">Poder</th>
+                <th colspan="2">Pociones</th>
+
+                <tr>
+                    <th colspan="1">Fuego</th>
+                    <th colspan="1">Hielo</th>
+                    <th colspan="1">Vida</th>
+                    <th colspan="1">Veneno</th>
+                </tr>
+            </tr>
+        </thead>
+
+        <tbody align="center">
+            <tr>
+                <td>Hero 1</td>
+                <td>63</td>
+                <td>54</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Hero 2</td>
+                <td>30</td>
+                <td>15</td>
+                <td>3</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="box">
+        <h1>Detalles del Héroe</h1>
+        <p>Selecciona un héroe</p>
+        <button>Ver detalles</button>
+    </div>
+</body>
+</html>
